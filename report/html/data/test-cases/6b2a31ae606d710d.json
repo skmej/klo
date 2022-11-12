@@ -1,0 +1,197 @@
+{
+  "uid" : "6b2a31ae606d710d",
+  "name" : "test_01_success[体育-8-2-483c6774db1fb6010e0504d76df97b01]",
+  "fullName" : "scripts.test_news.Test_news#test_01_success",
+  "historyId" : "76ad9c725f4de280b25fb4c2195b4a94",
+  "time" : {
+    "start" : 1668223608515,
+    "stop" : 1668223608737,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1668223607599,
+      "stop" : 1668223607600,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "格式化日志",
+      "time" : {
+        "start" : 1668223608731,
+        "stop" : 1668223608732,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言状态码",
+      "time" : {
+        "start" : 1668223608732,
+        "stop" : 1668223608733,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "106507b0f85dbcc2",
+        "name" : "d4957c62-4333-423e-adb1-18678bb563db-attachment.attach",
+        "source" : "106507b0f85dbcc2.attach",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言内容10000",
+      "time" : {
+        "start" : 1668223608733,
+        "stop" : 1668223608735,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b73dbdc625012331",
+        "name" : "6738c51f-7f74-4324-9f16-3eadc1ffec02-attachment.attach",
+        "source" : "b73dbdc625012331.attach",
+        "type" : "text/plain",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言弹框信息",
+      "time" : {
+        "start" : 1668223608735,
+        "stop" : 1668223608737,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6d552ca5c92eca0",
+        "name" : "f9a00d6c-59f7-401a-833a-fbe7aca84aed-attachment.attach",
+        "source" : "a6d552ca5c92eca0.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1fe9331ab9799806",
+      "name" : "log",
+      "source" : "1fe9331ab9799806.txt",
+      "type" : "text/plain",
+      "size" : 93
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1668223608981,
+      "stop" : 1668223608981,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "频道"
+  }, {
+    "name" : "feature",
+    "value" : "新闻"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_news"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_news"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-50MNR88"
+  }, {
+    "name" : "thread",
+    "value" : "15748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_news"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "appkey",
+    "value" : "'483c6774db1fb6010e0504d76df97b01'"
+  }, {
+    "name" : "channel",
+    "value" : "'体育'"
+  }, {
+    "name" : "num",
+    "value" : "'8'"
+  }, {
+    "name" : "start",
+    "value" : "'2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b2a31ae606d710d.json",
+  "parameterValues" : [ "'483c6774db1fb6010e0504d76df97b01'", "'体育'", "'8'", "'2'" ]
+}

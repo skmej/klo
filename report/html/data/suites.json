@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_news",
+      "children" : [ {
+        "name" : "Test_news",
+        "children" : [ {
+          "name" : "test_01_success[头条-10-0-483c6774db1fb6010e0504d76df97b01]",
+          "uid" : "9db62903ad01f290",
+          "parentUid" : "bbb15da74d454e6405f4daf958739f7c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1668223607601,
+            "stop" : 1668223608039,
+            "duration" : 438
+          },
+          "flaky" : false,
+          "parameters" : [ "'483c6774db1fb6010e0504d76df97b01'", "'头条'", "'10'", "'0'" ]
+        }, {
+          "name" : "test_01_success[新闻-9-1-483c6774db1fb6010e0504d76df97b01]",
+          "uid" : "4172459bae559da1",
+          "parentUid" : "bbb15da74d454e6405f4daf958739f7c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1668223608048,
+            "stop" : 1668223608505,
+            "duration" : 457
+          },
+          "flaky" : false,
+          "parameters" : [ "'483c6774db1fb6010e0504d76df97b01'", "'新闻'", "'9'", "'1'" ]
+        }, {
+          "name" : "test_01_success[体育-8-2-483c6774db1fb6010e0504d76df97b01]",
+          "uid" : "6b2a31ae606d710d",
+          "parentUid" : "bbb15da74d454e6405f4daf958739f7c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1668223608515,
+            "stop" : 1668223608737,
+            "duration" : 222
+          },
+          "flaky" : false,
+          "parameters" : [ "'483c6774db1fb6010e0504d76df97b01'", "'体育'", "'8'", "'2'" ]
+        }, {
+          "name" : "test_02_key_error",
+          "uid" : "4516347e5ae3a222",
+          "parentUid" : "bbb15da74d454e6405f4daf958739f7c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1668223608754,
+            "stop" : 1668223608976,
+            "duration" : 222
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bbb15da74d454e6405f4daf958739f7c"
+      } ],
+      "uid" : "48c9a76dcb97b7e027a03079c36a9688"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts.test_news",
+    "children" : [ {
+      "name" : "test_01_success[头条-10-0-483c6774db1fb6010e0504d76df97b01]",
+      "uid" : "9db62903ad01f290",
+      "parentUid" : "d59c7054548d2cb00bfe803f81a6aa2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668223607601,
+        "stop" : 1668223608039,
+        "duration" : 438
+      },
+      "flaky" : false,
+      "parameters" : [ "'483c6774db1fb6010e0504d76df97b01'", "'头条'", "'10'", "'0'" ]
+    }, {
+      "name" : "test_01_success[新闻-9-1-483c6774db1fb6010e0504d76df97b01]",
+      "uid" : "4172459bae559da1",
+      "parentUid" : "d59c7054548d2cb00bfe803f81a6aa2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668223608048,
+        "stop" : 1668223608505,
+        "duration" : 457
+      },
+      "flaky" : false,
+      "parameters" : [ "'483c6774db1fb6010e0504d76df97b01'", "'新闻'", "'9'", "'1'" ]
+    }, {
+      "name" : "test_01_success[体育-8-2-483c6774db1fb6010e0504d76df97b01]",
+      "uid" : "6b2a31ae606d710d",
+      "parentUid" : "d59c7054548d2cb00bfe803f81a6aa2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668223608515,
+        "stop" : 1668223608737,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "parameters" : [ "'483c6774db1fb6010e0504d76df97b01'", "'体育'", "'8'", "'2'" ]
+    }, {
+      "name" : "test_02_key_error",
+      "uid" : "4516347e5ae3a222",
+      "parentUid" : "d59c7054548d2cb00bfe803f81a6aa2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668223608754,
+        "stop" : 1668223608976,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "scripts.test_news"
+  } ]
+}

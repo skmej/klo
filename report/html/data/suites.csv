@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","scripts.test_news.Test_news#test_01_success","457",""
+"passed","scripts.test_news.Test_news#test_01_success","438",""
+"passed","scripts.test_news.Test_news#test_02_key_error","222",""
+"passed","scripts.test_news.Test_news#test_01_success","222",""

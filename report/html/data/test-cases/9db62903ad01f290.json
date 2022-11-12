@@ -1,0 +1,197 @@
+{
+  "uid" : "9db62903ad01f290",
+  "name" : "test_01_success[头条-10-0-483c6774db1fb6010e0504d76df97b01]",
+  "fullName" : "scripts.test_news.Test_news#test_01_success",
+  "historyId" : "33585e865518a510b474b665cf5a3910",
+  "time" : {
+    "start" : 1668223607601,
+    "stop" : 1668223608039,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1668223607599,
+      "stop" : 1668223607600,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "格式化日志",
+      "time" : {
+        "start" : 1668223608033,
+        "stop" : 1668223608034,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言状态码",
+      "time" : {
+        "start" : 1668223608034,
+        "stop" : 1668223608035,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1d10c3971f9e941",
+        "name" : "51d52767-31f4-4ebe-b8a5-57c1a0c73449-attachment.attach",
+        "source" : "d1d10c3971f9e941.attach",
+        "type" : "text/plain",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言内容10000",
+      "time" : {
+        "start" : 1668223608035,
+        "stop" : 1668223608037,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78db21b73f6536ed",
+        "name" : "3ccc9e14-cf07-4c69-9bce-7ab6c9c761cd-attachment.attach",
+        "source" : "78db21b73f6536ed.attach",
+        "type" : "text/plain",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言弹框信息",
+      "time" : {
+        "start" : 1668223608037,
+        "stop" : 1668223608039,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74cb935641fd0a36",
+        "name" : "463e50b1-9b41-4979-a39b-ccd44410c546-attachment.attach",
+        "source" : "74cb935641fd0a36.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8efc4398d92b3d65",
+      "name" : "log",
+      "source" : "8efc4398d92b3d65.txt",
+      "type" : "text/plain",
+      "size" : 94
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1668223608981,
+      "stop" : 1668223608981,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "频道"
+  }, {
+    "name" : "feature",
+    "value" : "新闻"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_news"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_news"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-50MNR88"
+  }, {
+    "name" : "thread",
+    "value" : "15748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_news"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "appkey",
+    "value" : "'483c6774db1fb6010e0504d76df97b01'"
+  }, {
+    "name" : "channel",
+    "value" : "'头条'"
+  }, {
+    "name" : "num",
+    "value" : "'10'"
+  }, {
+    "name" : "start",
+    "value" : "'0'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9db62903ad01f290.json",
+  "parameterValues" : [ "'483c6774db1fb6010e0504d76df97b01'", "'头条'", "'10'", "'0'" ]
+}
